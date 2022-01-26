@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+.developer{
+  text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+   border-radius: 15px;
+   padding: 3%;
+   font-family: 'Poppins', sans-serif;
+
+}
+.about-developer{
+  color: hsl(273, 4%, 51%);
+}
+.row{
+  margin-top: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+.developer-img{
+  width: 100px;
+}
+.developer-name{
+  color: #041562;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.developer-prof{
+  color: hsl(273, 4%, 51%);
+}
+.gaurav{
+  margin-top: 57px;
+}
+.contributor-img{
+  width: 70px;
+}
+.contributor-name{
+  color: #041562;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.swiper{
+
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 2%;
+
+  border-radius: 15px;
+}
+.swiper-slide{
+  width: 500px;
+
+  border-radius: 15px;
+}
+.swiper-wrapper{
+  align-items: center;
+}
+.contributor{
+  text-align: center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  border-radius: 15px;
+
+}
+.swiper-slide-active{
+  transform: scale(1.2);
+  transition: .4s;
+}
+.contributor-deg{
+  color: hsl(273, 4%, 51%);
+}
+.contributor-head{
+    color: hsl(273, 4%, 51%);
+  margin-top: 30px;
+  text-align: center;
+
+}
+@media screen and (max-width: 768px) {
+  .developer{
+    text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+
+     border-radius: 15px;
+     padding: 3%;
+     font-family: 'Poppins', sans-serif;
+
+  }
+  .swiper-slide{
+    width: 95%;
+
+    padding: 1%;
+
+    border-radius: 15px;
+  }
+  .contributor{
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    border-radius: 15px;
+
+  }
+  .swiper-slide-active{
+    transform: initial;
+    transition: .4s;
+  }
+}
